@@ -1,0 +1,117 @@
+label {
+  font-weight: 600;
+  padding-right: 12px;
+  display: inline-block;
+  width: 108px;
+}
+
+input {
+  border: 1px solid #ccc;
+  width: 350px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 0 8px;
+}
+
+select {
+  width: 350px;
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+}
+
+.dynamic-form {
+  &__heading {
+    margin: 0;
+    background-color: #80c342;
+    color: #ffffff;
+    padding: 16px 0;
+    text-align: center;
+  }
+  &__content {
+    display: flex;
+    margin: 24px 80px;
+    border: 1px solid #ccc;
+    padding: 32px;
+  }
+
+  &__input--button {
+    width: 50%;
+    // display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  &__button {
+    border: none;
+    background: #80c342;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+
+  &__submit-button {
+    border: none;
+    background: #80c342;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__field--wrapper {
+    margin-bottom: 16px;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__textarea {
+    display: flex;
+    align-items: center;
+  }
+
+  &__textarea-field {
+    border: 1px solid #ccc;
+    width: 350px;
+    height: 32px;
+    border-radius: 8px;
+    padding: 0 8px;
+  }
+
+  &__checkbox,
+  &__radio {
+    display: flex;
+    align-items: center;
+  }
+
+  &__input,
+  &__radio-input {
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+
+  &__radio-button--wrapper {
+    gap: 12px;
+  }
+}
+
+.selected-checkbox {
+  width: auto;
+  margin-right: 16px;
+}
